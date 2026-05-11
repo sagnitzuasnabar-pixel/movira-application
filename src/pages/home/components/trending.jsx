@@ -6,7 +6,7 @@ const IMAGE_BASE_URL = 'https://image.tmdb.org/t/p/w500'
 
 export function Trending() {
   const { movies, loading, error } = useGetTrending()
-  const { sliderRef, handleScrollRight, handleScrollLeft, handleClickMovie } = useSliderNavigation()
+  const { sliderRef, handleScrollRight, handleScrollLeft } = useSliderNavigation()
 
   if (loading) {
     return (
@@ -47,7 +47,6 @@ export function Trending() {
             return (
               <div
                 key={movie.id}
-                onClick={function() { handleClickMovie(movie.id) }}
                 className="shrink-0 cursor-pointer flex items-end"
               >
                 <span
