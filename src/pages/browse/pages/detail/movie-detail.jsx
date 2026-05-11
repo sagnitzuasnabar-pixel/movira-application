@@ -66,7 +66,7 @@ export function MovieDetail() {
 
         <button
           onClick={handleGoBack}
-          className="absolute top-35 left-4 md:left-12 z-50 flex items-center gap-2 text-white"
+          className="absolute top-35 left-4 md:left-12 z-30 flex items-center gap-2 text-white"
         >
           <ArrowLeft className="size-6" />
           <span className="text-sm font-semibold">Regresar</span>
