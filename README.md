@@ -68,7 +68,7 @@ El servidor corre en http://localhost:5173
 - La aplicación sigue una arquitectura basada en páginas con separación por funcionalidad.
 
 **Project Structure**
-
+```
 src/
 ├── context/                  # AuthContext (token con FakeStore API)
 ├── data/                     # Datos estáticos (features-data.js, faqs.json)
@@ -123,6 +123,7 @@ src/
 ├── router/
 │   └── router.jsx
 └── services/                 # Servicios globales de TMDB
+```
 
 ## Key Features
 
@@ -151,7 +152,7 @@ Para obtener el Bearer Token de TMDB:
 4. Copia el token de acceso de lectura (Bearer Token)
 
 ## Resources
-
+```
 -[React Docs] (https://react.dev/)
 -[Vite Guide] (https://vite.dev/)
 -[React Router] (https://reactrouter.com/)
@@ -159,6 +160,6 @@ Para obtener el Bearer Token de TMDB:
 -[TMDB API] (https://developer.themoviedb.org/)
 -[FireStore API]  (https://fakestoreapi.com/)
 -[Lucide React] (https://lucide.dev/)
-
+```
 ## License
 Proyecto académico — Movira
