@@ -25,7 +25,7 @@ Movira
 1. **Clona el repositorio**
 
 ```bash
-  git clone https://github.com/tu-usuario/movira-final-project.git
+  git clone https://github.com/sagnitzuasnabar-pixel/movira-application.git
   cd movira-final-project
 ```
 
