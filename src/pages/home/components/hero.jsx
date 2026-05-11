@@ -1,14 +1,6 @@
 import { ChevronRight } from "lucide-react"
-import { useState } from "react"
-import { useNavigate } from "react-router"
 
 export function Hero() {
-  const [email, setEmail] = useState('')
-  const navigate = useNavigate()
-
-  function handleEmailChange(event) {
-    setEmail(event.target.value)
-  }
 
   return (
     <div className="relative min-h-screen flex items-center justify-center bg-cover bg-no-repeat 
@@ -34,8 +26,6 @@ export function Hero() {
           <input
             type="email"
             placeholder="Email"
-            value={email}
-            onChange={handleEmailChange}
             className="px-4 py-3 text-white text-sm md:text-base rounded w-full md:w-96 outline-none border border-gray-300 placeholder-gray-300 bg-black/40"
           />
           <button
