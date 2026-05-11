@@ -123,8 +123,8 @@ export function Navbar() {
         <div className="flex items-center gap-4">
 
           {showSearch ? (
-            <div className="relative flex items-center">
-              <div className="flex items-center bg-black/80 border border-white/50 rounded px-3 py-1 gap-2">
+            <div className="relative flex items-center w-full md:w-auto">
+              <div className="flex items-center bg-black/80 border border-white/50 rounded px-3 py-1 gap-2 w-full md:w-auto">
                 <Search className="text-white size-4" />
                 <input
                   type="text"
@@ -140,7 +140,10 @@ export function Navbar() {
               </div>
 
               {resultados.length > 0 && (
-                <div className="absolute top-10 right-0 bg-zinc-900 border border-gray-700 rounded-lg w-80 max-h-96 overflow-y-scroll z-50">
+                <div 
+                  className="absolute top-10 left-0 right-0 md:left-auto md:right-0 md:w-80 bg-zinc-900 border border-gray-700 rounded-lg max-h-96 overflow-y-scroll z-50"
+                  style={{ scrollbarWidth: 'none' }}  
+                >
                   {resultados.map(item => {
                     const titulo = item.title ?? item.name
                     return (
@@ -187,7 +190,7 @@ export function Navbar() {
 
       {/* MENÚ MOBILE */}
       {showMobileMenu && (
-        <div className="fixed top-16 left-0 w-full bg-black z-40 flex flex-col p-4 gap-4 md:hidden">
+        <div className="fixed top-16 left-0 w-full bg-black z-80 flex flex-col p-4 gap-4 md:hidden">
           {navLinks.map(link => (
             <div
               key={link.id}
