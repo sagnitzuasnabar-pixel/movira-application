@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "pregunta": "¿Qué es Movira?",
+    "respuesta": "Movira es un servicio de streaming que ofrece películas y series ilimitadas en tu dispositivo favorito."
+  },
+  {
+    "id": 2,
+    "pregunta": "¿Cuánto cuesta Movira?",
+    "respuesta": "Puedes ver Movira desde S/ 28.90 al mes. Sin compromisos, cancela cuando quieras."
+  },
+  {
+    "id": 3,
+    "pregunta": "¿Dónde puedo ver Movira?",
+    "respuesta": "Puedes ver Movira en tu teléfono, tablet, laptop y TV."
+  },
+  {
+    "id": 4,
+    "pregunta": "¿Cómo cancelo?",
+    "respuesta": "Movira es flexible. Sin contratos ni compromisos. Puedes cancelar tu cuenta fácilmente en dos clics."
+  },
+  {
+    "id": 5,
+    "pregunta": "¿Qué puedo ver en Movira?",
+    "respuesta": "Movira tiene una amplia biblioteca de películas y series, documentales, comedias, dramas, terror y mucho más."
+  },
+  {
+    "id": 6,
+    "pregunta": "¿Es bueno Movira para los niños?",
+    "respuesta": "La experiencia de Movira para niños está incluida en tu membresía para darte control parental."
+  }
+]
