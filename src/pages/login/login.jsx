@@ -18,8 +18,12 @@ export function Login() {
   }
 
   async function handleSubmit() {
-    await login(form)
-    navigate('/browse')
+    try {
+      await login(form)
+      navigate('/browse') 
+    } catch (error) {
+  
+    }
   }
   
   function handleHome(){
